@@ -1,6 +1,7 @@
 .hero-wrapper{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
@@ -12,7 +13,8 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 360px;
+    order: 1;
+    height: 380px;
     background-color: aliceblue;
     background-color: #F1F8F6;
 }
@@ -31,7 +33,8 @@ p{
 
 .image-area{
     width: 50%;
-    height: 360px;
+    order: 2;
+    height: 380px;
 
 }
 
@@ -39,3 +42,32 @@ p{
     width: 100%;
     height: 100%;
 }
+
+@media only screen and (max-width: 859px) {
+    .hero-wrapper {
+        text-align: center;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .text-area{
+        
+        width: 100%;
+        order: 2;
+    }
+
+    .image-area{
+        
+        width: 100%;
+        order: 1;
+    }
+
+    
+    .text-area>h1,p{
+        
+       padding: 20px;
+    }
+
+  
+  }
