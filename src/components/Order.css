@@ -41,7 +41,46 @@ p {
 }
 
 .order-image-item {
+    background-size: cover;
+    background-position: center;
   width: 100%;
   object-fit: cover;
   height: 100%;
 }
+
+
+@media only screen and (max-width: 859px) {
+    .order-wrapper {
+        text-align: center;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .order-text-wrapper{
+        
+        width: 100%;
+        order: 2;
+    }
+
+    .order-image-wrapper{
+        
+        width: 100%;
+        order: 1;
+    }
+
+    .text{
+        padding: 10px;
+    }
+    .text > h1 {
+        font-size: 2em;
+        letter-spacing: .2em;
+      }
+      
+      .text > p {
+        font-size: 1em;
+        font-weight: 400;
+      }
+
+  
+  }
