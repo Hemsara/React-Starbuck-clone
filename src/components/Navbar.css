@@ -13,6 +13,12 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
+.menu-toggle{
+  display: none;
+}
+
+
 .left-wrapper,
 .right-wrapper {
   display: flex;
@@ -49,4 +55,19 @@ button{
     border-radius: 15px;
     border: 1px solid black;
     margin: 0px 10px;
+}
+
+
+@media only screen and (max-width: 871px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  ul{
+    display: none;
+  }
+
+  .buttons,.locate{
+    display: none;
+  }
 }
