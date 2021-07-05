@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Message from "./components/Message";
 import Hero from "./components/Hero";
 import Order from "./components/Order";
+import Online from "./components/Online";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
        <Message />
        <Hero />
        <Order />
+       <Online />
 
     </div>
   );
