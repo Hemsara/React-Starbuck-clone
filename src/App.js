@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Order from "./components/Order";
 import Online from "./components/Online";
 import "./App.css";
+import Info from "./components/Info";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
       bg={"#D4E9E2"}
       img={"https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-71657.jpg"}
       />
-
+      <Info />
     </div>
   );
 }
