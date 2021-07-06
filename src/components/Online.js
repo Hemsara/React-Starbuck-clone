@@ -5,7 +5,6 @@ const Online = () => {
     return ( 
         <div className="online-wrapper">
           <Pickup 
-           className = "first"
            text={"Order and pick up. Easy as that."}
            para={"Just open the app, order your favorites, and enjoy contactless pay. From there, choose whichever pickup method is best for you."} 
            btntext={"seek pickup options"}

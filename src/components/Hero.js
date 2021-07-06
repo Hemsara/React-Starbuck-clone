@@ -2,15 +2,17 @@ import TextArea from "./TextArea";
 import ImageArea from "./ImageArea";
 import "./CSS/Hero.css";
 
-const Hero = () => {
+const Hero = ({heading,para,btnText,bg,img}) => {
   return (
     <div className="hero-wrapper">
       <TextArea
-        heading={"FREE COFFEE IS A TAP WAY"}
-        para={"Join now to start earning Rewards."}
+        heading={heading}
+        para={para}
+        bg={bg}
+        btnText={btnText}
       />
 
-      <ImageArea />
+      <ImageArea  img={img}/>
     </div>
   );
 };

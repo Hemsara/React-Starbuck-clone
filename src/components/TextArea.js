@@ -1,11 +1,15 @@
 import Button from "./Button";
 
-const TextArea = ({ heading, para }) => {
+const TextArea = ({ heading, para,bg ,btnText}) => {
   return (
-    <div className="text-area">
+    <div className="text-area" style={
+      {
+        backgroundColor:bg
+      }
+    }>
       <h2>{heading}</h2>
       <p>{para}</p>
-      <Button title={"Join now"} color={"black"} bg={"transparent"}  border={"black"}/>
+      <Button title={btnText} color={"black"} bg={"transparent"}  border={"black"}/>
 
     </div>
   );

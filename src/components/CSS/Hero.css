@@ -1,13 +1,17 @@
 .hero-wrapper{
+  box-sizing: border-box;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
 }
 
 .text-area{
+  box-sizing: border-box;
+  padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,8 +19,7 @@
     width: 50%;
     order: 1;
     height: 380px;
-    background-color: aliceblue;
-    background-color: #F1F8F6;
+    
 }
 
 h2{
@@ -43,7 +46,7 @@ p{
     height: 100%;
 }
 
-@media only screen and (max-width: 859px) {
+@media only screen and (max-width: 1159px) {
     .hero-wrapper {
         text-align: center;
       flex-direction: column;
