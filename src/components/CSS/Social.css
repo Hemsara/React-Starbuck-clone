@@ -56,6 +56,10 @@
     .action-list > p > span{
         display: none;
     }
-
+    .copy{
+        margin: 0;
+        padding: 0;
+        font-size: .8em;
+    }
   
   }

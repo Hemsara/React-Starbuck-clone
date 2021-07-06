@@ -58,6 +58,8 @@ p{
         
         width: 100%;
         order: 2;
+        padding: 28px 20px ;
+        height: auto;
     }
 
     .image-area{

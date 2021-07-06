@@ -64,6 +64,8 @@ p {
   .order-text-wrapper {
     width: 100%;
     order: 2;
+    height: auto;
+    padding: 10px 10px;
   }
 
   .order-image-wrapper {
@@ -80,7 +82,7 @@ p {
   }
 
   .text > p {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 400;
   }
 }
