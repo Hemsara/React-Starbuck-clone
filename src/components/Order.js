@@ -1,6 +1,6 @@
 import OrderText from "./OrderText";
 import OrderImage from "./OrderImage";
-import "./Order.css";
+import "./CSS/Order.css";
 
 
 const Order = () => {

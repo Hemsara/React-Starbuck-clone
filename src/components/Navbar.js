@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./CSS/Navbar.css";
 import logo from "./assets/starbucks-logo-2019.png";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import Button from "./Button";

@@ -1,6 +1,6 @@
 import TextArea from "./TextArea";
 import ImageArea from "./ImageArea";
-import "./Hero.css";
+import "./CSS/Hero.css";
 
 const Hero = () => {
   return (

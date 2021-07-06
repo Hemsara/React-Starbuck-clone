@@ -1,4 +1,4 @@
-import "./Message.css";
+import "./CSS/Message.css";
 
 
 const Message = () => {

@@ -1,4 +1,4 @@
-import "./Pickup.css";
+import "./CSS/Pickup.css";
 import Pickup from "./Pickup";
 
 const Online = () => {
