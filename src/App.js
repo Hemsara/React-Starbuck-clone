@@ -6,7 +6,7 @@ import Online from "./components/Online";
 import "./App.css";
 import Info from "./components/Info";
 import Footer from "./components/Footer";
-
+import Social from "./components/Social";
 function App() {
   return (
     <div className="App">
@@ -30,6 +30,7 @@ function App() {
       />
       <Info />
       <Footer />
+      <Social />
     </div>
   );
 }
