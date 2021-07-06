@@ -5,6 +5,7 @@ import Order from "./components/Order";
 import Online from "./components/Online";
 import "./App.css";
 import Info from "./components/Info";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       img={"https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-71657.jpg"}
       />
       <Info />
+      <Footer />
     </div>
   );
 }
